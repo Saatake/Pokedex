@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+  <h1>
+    <div class="logo img">
+      <img src="assets/icones/logo.png" alt="Logo da Pokédex">
+      <p class="pokedex-text">Pokédex</p>
+
+  </div>
+  </h1>
+  
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand"></a>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Ex: Lucario" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+            <button type="button" id="surpriseBtn" class="btn btn-outline-info">Surpreenda-me</button>
+        </form>
+    </div>
+</nav>
+
+  <div class="pokeContainer" id="pokeContainer"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
